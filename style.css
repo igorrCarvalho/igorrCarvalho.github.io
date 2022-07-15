@@ -1,6 +1,6 @@
 body {
     color: rgb(212, 202, 202);
-    background-color: #30343F;
+    background-color: #010714;
 }
 .header ul {
     display: flex;
@@ -12,17 +12,17 @@ body {
     padding-right: 14px;
 }
 
-h1, h2, h3 {
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-
+.introduction {
+padding-left: 200px;
+padding-top: 100px;
+padding-bottom: 500px;
 }
 
-#foto {
-    border-radius: 25px;
+.introduction p {
+    width: 300px;
 }
 
-#case {
-    text-decoration: none;
-}
+.introduction h2 {
+    font-family: 'Lora';
 
+}
