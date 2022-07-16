@@ -15,7 +15,7 @@ body {
 .introduction {
 padding-left: 200px;
 padding-top: 100px;
-padding-bottom: 500px;
+padding-bottom: 350px;
 }
 
 .introduction p {
@@ -25,4 +25,22 @@ padding-bottom: 500px;
 .introduction h2 {
     font-family: 'Lora';
 
+}
+
+.about {
+    margin: 50px;
+    padding-left: 100px;
+}
+
+.about p {
+    float: left;
+    width: 400px;
+    padding-bottom: 0px;
+}
+
+.about img {
+    border-radius: 10px;
+}
+
+.about h3 {    
 }
