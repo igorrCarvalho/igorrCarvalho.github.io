@@ -2,6 +2,9 @@ body {
     color: rgb(212, 202, 202);
     background-color: #010714;
 }
+
+/* Menu e texto inicial */
+
 .header ul {
     display: flex;
     justify-content: end;
@@ -27,20 +30,61 @@ padding-bottom: 350px;
 
 }
 
+/* Sobre mim */
+
 .about {
     margin: 50px;
     padding-left: 100px;
 }
 
 .about p {
-    float: left;
+    display: inline-block;
+    position: relative;
     width: 400px;
-    padding-bottom: 0px;
+    bottom: 110px;
+    
 }
 
 .about img {
     border-radius: 10px;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
 }
 
-.about h3 {    
+.about h3 {
+    position: relative;
+    bottom: 50px;
+    color: #757575;
+
+}
+
+#habilities {
+    position: relative;
+    bottom: 140px;
+}
+
+.about ul {
+    position: relative;
+    bottom: 150px;
+}
+
+#nome {
+    color: #D2BFFF;
+    font-weight: 600;
+}
+
+#python {
+    color: #C1FFE3;
+    font-weight: 600;
+}
+
+#java {
+    color: #FFA8A8;
+    font-weight: 600;
+}
+
+#trybe {
+    color: #C1FFE3;
+    font-weight: 600;
 }
