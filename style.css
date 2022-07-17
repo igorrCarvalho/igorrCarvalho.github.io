@@ -1,5 +1,5 @@
 body {
-    color: rgb(212, 202, 202);
+    color: white;
     background-color: #010714;
 }
 
@@ -8,6 +8,7 @@ body {
 .header ul {
     display: flex;
     justify-content: end;
+    padding-top: 20px;
 }
 
 .header ul li {
